@@ -6,18 +6,22 @@
   [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
   [![Claude](https://img.shields.io/badge/Claude-AI-orange?style=flat&logo=anthropic&logoColor=white)](https://claude.ai)
   [![License](https://img.shields.io/badge/License-CC0-blue.svg)](LICENSE)
-  [![Contributors](https://img.shields.io/github/contributors/yourusername/awesome-claude)](https://github.com/yourusername/awesome-claude/graphs/contributors)
+  [![Contributors](https://img.shields.io/github/contributors/alvinunreal/awesome-claude)](https://github.com/alvinunreal/awesome-claude/graphs/contributors)
   
   <p align="center">
     <strong>A curated list of awesome resources, tools, libraries, and applications for Anthropic's Claude AI</strong>
   </p>
   
   <p align="center">
-    <a href="#contents">Contents</a> •
-    <a href="#official-anthropic-resources">Official Resources</a> •
-    <a href="#api-clients--sdks">SDKs</a> •
-    <a href="#claude-code-ecosystem">Claude Code</a> •
-    <a href="#contributing">Contributing</a>
+    <a href="#official-anthropic-resources">Official Anthropic Resources</a> •
+    <a href="#api-clients--sdks">API Clients & SDKs</a> •
+    <a href="#educational-resources--tutorials">Educational Resources & Tutorials</a> •
+    <a href="#claude-code-ecosystem">Claude Code Ecosystem</a> •
+    <a href="#model-context-protocol-mcp-servers">Model Context Protocol (MCP) Servers</a> •
+    <a href="#ide-extensions--plugins">IDE Extensions & Plugins</a> •
+    <a href="#applications--user-interfaces">Applications & User Interfaces</a> •
+    <a href="#prompt-engineering--templates">Prompt Engineering & Templates</a> •
+    <a href="#community--lists">Community & Lists</a>
   </p>
   
   <br />
@@ -30,16 +34,6 @@
 ---
 
 ## Contents
-
-- [Official Anthropic Resources](#official-anthropic-resources)
-- [API Clients & SDKs](#api-clients--sdks)
-- [Educational Resources & Tutorials](#educational-resources--tutorials)
-- [Claude Code Ecosystem](#claude-code-ecosystem)
-- [Model Context Protocol (MCP) Servers](#model-context-protocol-mcp-servers)
-- [IDE Extensions & Plugins](#ide-extensions--plugins)
-- [Applications & User Interfaces](#applications--user-interfaces)
-- [Prompt Engineering & Templates](#prompt-engineering--templates)
-- [Community & Lists](#community--lists)
 
 <!-- EOF -->
 ## Official Anthropic Resources
@@ -54,7 +48,7 @@
 
 ## Educational Resources & Tutorials
 
-## Official Anthropic courses**
+### Official Anthropic courses
 
 - **[AI Fluency: Framework & Foundations](https://anthropic.skilljar.com/ai-fluency-framework-foundations)** - Learn to collaborate with AI systems effectively, efficiently, ethically, and safely
 - **[Claude with the Anthropic API](https://anthropic.skilljar.com/claude-with-the-anthropic-api)** - This comprehensive course covers the full spectrum of working with Anthropic models using the Anthropic API
@@ -76,23 +70,23 @@
 **Tools, extensions, and integrations for Claude Code**
 
 ### Core & Official Tools
-- **[claude-code](https://github.com/anthropics/claude-code)** - 30.8k⭐ - Official Claude Code from Anthropic. An agentic coding tool that lives in your terminal. (TypeScript)
-- **[claude-code-action](https://github.com/anthropics/claude-code-action)** - 2.7k⭐ - General-purpose action for GitHub PRs and issues using Claude Code (TypeScript)
-- **[claude-code-security-review](https://github.com/anthropics/claude-code-security-review)** - 2.1k⭐ - AI-powered security review GitHub Action (Python)
-- **[claude-code-sdk-python](https://github.com/anthropics/claude-code-sdk-python)** - 848⭐ - Python SDK for Claude Code (Python)
+- **[claude-code](https://github.com/anthropics/claude-code)** - 30.8k⭐ - Official Claude Code from Anthropic. An agentic coding tool that lives in your terminal.
+- **[claude-code-action](https://github.com/anthropics/claude-code-action)** - 2.7k⭐ - General-purpose action for GitHub PRs and issues using Claude Code
+- **[claude-code-security-review](https://github.com/anthropics/claude-code-security-review)** - 2.1k⭐ - AI-powered security review GitHub Action
+- **[claude-code-sdk-python](https://github.com/anthropics/claude-code-sdk-python)** - 849⭐ - Python SDK for Claude Code
 
 ### Frameworks & Platforms
-- **[claude-code-router](https://github.com/musistudio/claude-code-router)** - 14.5k⭐ - Use Claude Code as foundation for coding infrastructure (TypeScript)
-- **[SuperClaude_Framework](https://github.com/SuperClaude-Org/SuperClaude_Framework)** - 13.6k⭐ - Configuration framework with specialized commands and cognitive personas (Python)
-- **[claudia](https://github.com/getAsterisk/claudia)** - 13.7k⭐ - Powerful GUI app and toolkit for Claude Code (TypeScript/Rust)
-- **[claude-flow](https://github.com/ruvnet/claude-flow)** - 6.6k⭐ - AI orchestration platform with swarm intelligence and MCP tools (TypeScript)
+- **[claude-code-router](https://github.com/musistudio/claude-code-router)** - 14.5k⭐ - Use Claude Code as foundation for coding infrastructure
+- **[SuperClaude_Framework](https://github.com/SuperClaude-Org/SuperClaude_Framework)** - 13.6k⭐ - Configuration framework with specialized commands and cognitive personas
+- **[claudia](https://github.com/getAsterisk/claudia)** - 13.7k⭐ - Powerful GUI app and toolkit for Claude Code
+- **[claude-flow](https://github.com/ruvnet/claude-flow)** - 6.6k⭐ - AI orchestration platform with swarm intelligence and MCP tools
 - **[dotai](https://github.com/udecode/dotai)** - 1.0k⭐ - Ultimate AI development stack (Shell)
 
 ### Agent Collections & Orchestration
-- **[awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)** - 11.9k⭐ - Curated list of commands, files, and workflows (Python)
-- **[agents](https://github.com/wshobson/agents)** - 9.6k⭐ - Production-ready subagents for Claude Code
+- **[awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)** - 11.9k⭐ - Curated list of commands, files, and workflows
+- **[agents](https://github.com/wshobson/agents)** - 9.7k⭐ - Production-ready subagents for Claude Code
 - **[awesome-claude-agents](https://github.com/vijaythecoder/awesome-claude-agents)** - 3.0k⭐ - Orchestrated sub agent dev team
-- **[claude-code-subagents-collection](https://github.com/davepoon/claude-code-subagents-collection)** - 1.6k⭐ - Subagents & commands collection with CLI tool (TypeScript)
+- **[claude-code-subagents-collection](https://github.com/davepoon/claude-code-subagents-collection)** - 1.6k⭐ - Subagents & commands collection with CLI tool
 - **[claude-agents](https://github.com/iannuttall/claude-agents)** - 1.6k⭐ - Custom subagents collection
 - **[awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents)** - 1.4k⭐ - 100+ specialized AI agents for full-stack development
 - **[claude-code-sub-agents](https://github.com/lst97/claude-code-sub-agents)** - 849⭐ - Specialized AI subagents for full-stack
@@ -100,60 +94,60 @@
 - **[claude-code-unified-agents](https://github.com/stretchcloud/claude-code-unified-agents)** - 502⭐ - Unified agent collection (Shell)
 
 ### Development & Code Tools
-- **[serena](https://github.com/oraios/serena)** - 9.6k⭐ - Semantic retrieval and editing capabilities (Python)
-- **[context-engineering-intro](https://github.com/coleam00/context-engineering-intro)** - 8.9k⭐ - Context engineering guide for AI coding assistants (Python)
+- **[serena](https://github.com/oraios/serena)** - 9.6k⭐ - Semantic retrieval and editing capabilities
+- **[context-engineering-intro](https://github.com/coleam00/context-engineering-intro)** - 8.9k⭐ - Context engineering guide for AI coding assistants
 - **[code2prompt](https://github.com/mufeedvh/code2prompt)** - 6.4k⭐ - Convert codebase to LLM prompt with token counting (Rust/MDX)
-- **[repomix](https://github.com/yamadashy/repomix)** - 18.7k⭐ - Pack an entire repository into a single AI-friendly file with token counting and security checks (TypeScript)
-- **[claude-code-hooks-mastery](https://github.com/disler/claude-code-hooks-mastery)** - 1.2k⭐ - Advanced hooks system (Python)
-- **[vibekit](https://github.com/superagent-ai/vibekit)** - 1.1k⭐ - Isolated sandbox for coding agents (TypeScript)
+- **[repomix](https://github.com/yamadashy/repomix)** - 18.7k⭐ - Pack an entire repository into a single AI-friendly file with token counting and security checks
+- **[claude-code-hooks-mastery](https://github.com/disler/claude-code-hooks-mastery)** - 1.2k⭐ - Advanced hooks system
+- **[vibekit](https://github.com/superagent-ai/vibekit)** - 1.1k⭐ - Isolated sandbox for coding agents
 - **[Claude-Code-Development-Kit](https://github.com/peterkrueck/Claude-Code-Development-Kit)** - 990⭐ - Orchestrated dev environment with automated docs and multi-agent workflows (Shell)
 
 ### Alternative Clients & Proxies
-- **[kilocode](https://github.com/Kilo-Org/kilocode)** - 7.1k⭐ - Open source AI coding assistant (TypeScript)
-- **[claudecodeui](https://github.com/siteboon/claudecodeui)** - 3.2k⭐ - Mobile and web UI for Claude Code (JavaScript)
-- **[claude-relay-service](https://github.com/Wei-Shaw/claude-relay-service)** - 2.3k⭐ - Self-hosted mirror service with multi-account support (JavaScript)
-- **[claude-code-proxy](https://github.com/1rgs/claude-code-proxy)** - 1.9k⭐ - Run Claude Code on OpenAI models (Python)
+- **[kilocode](https://github.com/Kilo-Org/kilocode)** - 7.1k⭐ - Open source AI coding assistant
+- **[claudecodeui](https://github.com/siteboon/claudecodeui)** - 3.2k⭐ - Mobile and web UI for Claude Code
+- **[claude-relay-service](https://github.com/Wei-Shaw/claude-relay-service)** - 2.3k⭐ - Self-hosted mirror service with multi-account support
+- **[claude-code-proxy](https://github.com/1rgs/claude-code-proxy)** - 1.9k⭐ - Run Claude Code on OpenAI models
 
 ### User Interfaces & Web Apps
-- **[cui](https://github.com/wbopan/cui)** - 804⭐ - Web UI for Claude Code agents (TypeScript)
-- **[ccseva](https://github.com/Iamshankhadeep/ccseva)** - 693⭐ - macOS menu bar app for usage tracking (TypeScript)
-- **[claude-code-chat](https://github.com/andrepimenta/claude-code-chat)** - 587⭐ - Beautiful chat interface for VS Code (JavaScript)
-- **[claude-code-webui](https://github.com/sugyan/claude-code-webui)** - 487⭐ - Web-based interface with streaming (TypeScript)
+- **[cui](https://github.com/wbopan/cui)** - 805⭐ - Web UI for Claude Code agents
+- **[ccseva](https://github.com/Iamshankhadeep/ccseva)** - 693⭐ - macOS menu bar app for usage tracking
+- **[claude-code-chat](https://github.com/andrepimenta/claude-code-chat)** - 587⭐ - Beautiful chat interface for VS Code
+- **[claude-code-webui](https://github.com/sugyan/claude-code-webui)** - 487⭐ - Web-based interface with streaming
 
 ### Editor Integrations
-- **[claude-coder](https://github.com/kodu-ai/claude-coder)** - 4.7k⭐ - VSCode extension for autonomous coding (TypeScript)
-- **[aide](https://github.com/nicepkg/aide)** - 2.6k⭐ - VSCode AI assistant with batch processing (TypeScript)
-- **[claude-code.nvim](https://github.com/greggh/claude-code.nvim)** - 1.2k⭐ - Neovim integration (Lua)
-- **[claude-code-ide.el](https://github.com/manzaltu/claude-code-ide.el)** - 989⭐ - Claude Code IDE integration for Emacs (Emacs Lisp)
+- **[claude-coder](https://github.com/kodu-ai/claude-coder)** - 4.7k⭐ - VSCode extension for autonomous coding
+- **[aide](https://github.com/nicepkg/aide)** - 2.6k⭐ - VSCode AI assistant with batch processing
+- **[claude-code.nvim](https://github.com/greggh/claude-code.nvim)** - 1.2k⭐ - Neovim integration
+- **[claude-code-ide.el](https://github.com/manzaltu/claude-code-ide.el)** - 989⭐ - Claude Code IDE integration for Emacs
 
 ### Monitoring & Analytics
-- **[ccusage](https://github.com/ryoppippi/ccusage)** - 7.1k⭐ - CLI tool for analyzing Claude Code usage from JSONL files (TypeScript)
-- **[Claude-Code-Usage-Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor)** - 4.4k⭐ - Real-time usage monitor with predictions (Python)
-- **[sniffly](https://github.com/chiphuyen/sniffly)** - 778⭐ - Dashboard with usage stats and error analysis (Python)
+- **[ccusage](https://github.com/ryoppippi/ccusage)** - 7.1k⭐ - CLI tool for analyzing Claude Code usage from JSONL files
+- **[Claude-Code-Usage-Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor)** - 4.4k⭐ - Real-time usage monitor with predictions
+- **[sniffly](https://github.com/chiphuyen/sniffly)** - 779⭐ - Dashboard with usage stats and error analysis
 
 ### Project & Session Management
-- **[claude-code-templates](https://github.com/davila7/claude-code-templates)** - 4.6k⭐ - CLI for configuring and monitoring Claude Code (JavaScript)
-- **[claude-squad](https://github.com/smtg-ai/claude-squad)** - 4.2k⭐ - Manage multiple AI terminal agents (Go)
-- **[crystal](https://github.com/stravu/crystal)** - 1.6k⭐ - Run parallel AI sessions in git worktrees (TypeScript)
+- **[claude-code-templates](https://github.com/davila7/claude-code-templates)** - 4.6k⭐ - CLI for configuring and monitoring Claude Code
+- **[claude-squad](https://github.com/smtg-ai/claude-squad)** - 4.2k⭐ - Manage multiple AI terminal agents
+- **[crystal](https://github.com/stravu/crystal)** - 1.6k⭐ - Run parallel AI sessions in git worktrees
 - **[claude-sessions](https://github.com/iannuttall/claude-sessions)** - 979⭐ - Session tracking and documentation commands
-- **[claude-swarm](https://github.com/parruda/claude-swarm)** - 962⭐ - Launch Claude Code with swarm of agents (Ruby)
+- **[claude-swarm](https://github.com/parruda/claude-swarm)** - 962⭐ - Launch Claude Code with swarm of agents
 - **[my-claude-code-setup](https://github.com/centminmod/my-claude-code-setup)** - 943⭐ - Shared starter template and memory bank system
-- **[ccundo](https://github.com/RonitSachdev/ccundo)** - 934⭐ - Granular undo functionality (JavaScript)
+- **[ccundo](https://github.com/RonitSachdev/ccundo)** - 934⭐ - Granular undo functionality
 
 ### Workflow Automation & TDD
-- **[CCPlugins](https://github.com/brennercruvinel/CCPlugins)** - 2.0k⭐ - Framework for senior engineer workflows (Python)
-- **[claude-code-spec-workflow](https://github.com/Pimzino/claude-code-spec-workflow)** - 1.6k⭐ - Spec-driven development workflows (TypeScript)
-- **[zcf](https://github.com/UfoMiao/zcf)** - 751⭐ - Zero-Config Claude-Code Flow (TypeScript)
-- **[tdd-guard](https://github.com/nizos/tdd-guard)** - 698⭐ - Automated TDD enforcement (TypeScript)
+- **[CCPlugins](https://github.com/brennercruvinel/CCPlugins)** - 2.0k⭐ - Framework for senior engineer workflows
+- **[claude-code-spec-workflow](https://github.com/Pimzino/claude-code-spec-workflow)** - 1.6k⭐ - Spec-driven development workflows
+- **[zcf](https://github.com/UfoMiao/zcf)** - 751⭐ - Zero-Config Claude-Code Flow
+- **[tdd-guard](https://github.com/nizos/tdd-guard)** - 698⭐ - Automated TDD enforcement
 
 ### Memory & Context Management
-- **[cipher](https://github.com/campfirein/cipher)** - 1.7k⭐ - Memory layer for coding agents (TypeScript)
-- **[mcp-memory-service](https://github.com/doobidoo/mcp-memory-service)** - 607⭐ - Universal MCP memory with semantic search (Python)
-- **[core](https://github.com/RedPlanetHQ/core)** - 539⭐ - Unified, shareable memory layer (TypeScript)
+- **[cipher](https://github.com/campfirein/cipher)** - 1.7k⭐ - Memory layer for coding agents
+- **[mcp-memory-service](https://github.com/doobidoo/mcp-memory-service)** - 607⭐ - Universal MCP memory with semantic search
+- **[core](https://github.com/RedPlanetHQ/core)** - 539⭐ - Unified, shareable memory layer
 
 ### Remote Control & Communication
-- **[Claude-Code-Remote](https://github.com/JessyTsui/Claude-Code-Remote)** - 687⭐ - Control via email/discord/telegram (JavaScript)
-- **[Claude-Code-Communication](https://github.com/nishimoto265/Claude-Code-Communication)** - 441⭐ - Communication tools (Shell)
+- **[Claude-Code-Remote](https://github.com/JessyTsui/Claude-Code-Remote)** - 687⭐ - Control via email/discord/telegram
+- **[Claude-Code-Communication](https://github.com/nishimoto265/Claude-Code-Communication)** - 441⭐ - Communication tools
 
 ### Documentation & Learning Resources
 - **[agent-rules](https://github.com/steipete/agent-rules)** - 3.9k⭐ - Rules and knowledge for working with agents (Shell)
@@ -167,11 +161,11 @@
 **Deep integrations with development environments**
 
 ### VS Code Extensions
-- **[Cline](https://github.com/cline/cline)** - 49.5k⭐ - Most popular autonomous coding agent with file editing, terminal access, and browser automation. Features human-in-the-loop GUI and cost tracking. `TypeScript` `Trending` `Very Active`
+- **[Cline](https://github.com/cline/cline)** - 49.5k⭐ - Most popular autonomous coding agent with file editing, terminal access, and browser automation. Features human-in-the-loop GUI and cost tracking.
 
-- **[Claude Coder](https://github.com/kodu-ai/claude-coder)** - 4.7k⭐ - Full-stack development assistant that converts ideas to implementation with mockup conversion and web deployment. `TypeScript` `Active`
+- **[Claude Coder](https://github.com/kodu-ai/claude-coder)** - 4.7k⭐ - Full-stack development assistant that converts ideas to implementation with mockup conversion and web deployment.
 
-- **[Claude Code Chat](https://github.com/andrepimenta/claude-code-chat)** - 587⭐ - Beautiful native chat interface for Claude Code within VS Code with conversation history and MCP support. `TypeScript` `Active`
+- **[Claude Code Chat](https://github.com/andrepimenta/claude-code-chat)** - 587⭐ - Beautiful native chat interface for Claude Code within VS Code with conversation history and MCP support.
 
 ### Neovim Integration
 - **[Claude Code Neovim](https://github.com/coder/claudecode.nvim)** - 921⭐ - First-to-market WebSocket-based MCP protocol integration for Neovim with zero dependencies. `Lua` `Active`
@@ -194,7 +188,7 @@
 - **[github-mcp-server](https://github.com/github/github-mcp-server)** - 21.5k⭐ - GitHub's official MCP Server that connects AI tools to GitHub's platform for managing repositories, issues, PRs, and more (Go)
 - **[awslabs/mcp](https://github.com/awslabs/mcp)** - 5.9k⭐ - AWS MCP Servers providing access to AWS APIs, documentation, and best practices for AI applications
 - **[mcp-chrome](https://github.com/hangwin/mcp-chrome)** - 6.5k⭐ - MCP server for Chrome browser automation and control
-- **[context7](https://github.com/upstash/context7)** - 26.7k⭐ - MCP server providing up-to-date code documentation and examples for AI code editors (TypeScript)
+- **[context7](https://github.com/upstash/context7)** - 26.7k⭐ - MCP server providing up-to-date code documentation and examples for AI code editors
 
 ## Applications & User Interfaces
 
@@ -206,11 +200,11 @@
 - **[Chatbox](https://github.com/chatboxai/chatbox)** - 36.3k⭐ - Cross-platform desktop app supporting multiple AI models including Claude
 
 ### Multi-Platform Chat Applications
-- **[Lobe Chat](https://github.com/lobehub/lobe-chat)** - 64.7k⭐ - Open-source modern AI chat framework with multi-model support (Claude, OpenAI, Gemini), MCP plugin integration, knowledge base, and artifacts support. `TypeScript` `Very Active`
+- **[Lobe Chat](https://github.com/lobehub/lobe-chat)** - 64.7k⭐ - Open-source modern AI chat framework with multi-model support (Claude, OpenAI, Gemini), MCP plugin integration, knowledge base, and artifacts support.
 
-- **[LibreChat](https://github.com/danny-avila/LibreChat)** - 29.3k⭐ - Multi-model chat platform with comprehensive Claude support alongside other AI models. `TypeScript/React` `21.6k ⭐` `Very Active`
+- **[LibreChat](https://github.com/danny-avila/LibreChat)** - 29.3k⭐ - Multi-model chat platform with comprehensive Claude support alongside other AI models.
 
-- **[FastGPT](https://github.com/labring/FastGPT)** - 25.6k⭐ - Knowledge-based QA platform with RAG capabilities and Claude integration. `TypeScript` `10.3k ⭐` `Very Active`
+- **[FastGPT](https://github.com/labring/FastGPT)** - 25.6k⭐ - Knowledge-based QA platform with RAG capabilities and Claude integration.
 
 ## Community
 
@@ -224,7 +218,7 @@
 
 ## Contributing
 
-**We welcome contributions!** This list follows the [Awesome List Guidelines](https://github.com/sindresorhus/awesome/blob/main/contributing.md) - 393.8k⭐.
+**We welcome contributions!** This list follows the [Awesome List Guidelines](https://github.com/sindresorhus/awesome/blob/main/contributing.md).
 
 ### How to Contribute
 
@@ -266,5 +260,3 @@
 ---
 
 **[⬆ Back to Contents](#contents)**
-
-> 💡 **Tip**: Most repositories marked as "Very Active" were updated within the last 30 days. The Claude ecosystem is rapidly evolving, especially around Claude Code and MCP protocol innovations.
