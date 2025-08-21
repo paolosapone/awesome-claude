@@ -1,6 +1,29 @@
-# Awesome Claude [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
+  <img src="assets/wide.svg" alt="Awesome Claude Logo" width="full" height="auto" />
+  
+  # Awesome Claude
+  
+  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+  [![Claude](https://img.shields.io/badge/Claude-AI-orange?style=flat&logo=anthropic&logoColor=white)](https://claude.ai)
+  [![License](https://img.shields.io/badge/License-CC0-blue.svg)](LICENSE)
+  [![Contributors](https://img.shields.io/github/contributors/yourusername/awesome-claude)](https://github.com/yourusername/awesome-claude/graphs/contributors)
+  
+  <p align="center">
+    <strong>A curated list of awesome resources, tools, libraries, and applications for Anthropic's Claude AI</strong>
+  </p>
+  
+  <p align="center">
+    <a href="#contents">Contents</a> •
+    <a href="#official-anthropic-resources">Official Resources</a> •
+    <a href="#api-clients--sdks">SDKs</a> •
+    <a href="#claude-code-ecosystem">Claude Code</a> •
+    <a href="#contributing">Contributing</a>
+  </p>
+  
+  <br />
+</div>
 
-> A curated list of awesome resources, tools, libraries, and applications for Anthropic's Claude AI
+---
 
 **[Claude](https://claude.ai)** is Anthropic's advanced AI assistant, known for its thoughtful, nuanced responses and strong capabilities in reasoning, analysis, and coding. This list focuses on **actively maintained, open-source projects** that enhance and extend Claude's capabilities.
 
@@ -9,18 +32,12 @@
 ## Contents
 
 - [Official Anthropic Resources](#official-anthropic-resources)
-- [Anthropic Courses](#anthropic-courses)
+- [Educational Resources & Tutorials](#educational-resources--tutorials)
 - [API Clients & SDKs](#api-clients--sdks)
 - [Claude Code Ecosystem](#claude-code-ecosystem)
 - [Development Tools & Frameworks](#development-tools--frameworks)
 - [Model Context Protocol (MCP) Servers](#model-context-protocol-mcp-servers)
-- [Browser Extensions & Web Tools](#browser-extensions--web-tools)
-- [IDE Extensions & Plugins](#ide-extensions--plugins)
-- [Applications & User Interfaces](#applications--user-interfaces)
-- [Platform Integrations](#platform-integrations)
-- [Automation & Workflow Tools](#automation--workflow-tools)
 - [Prompt Engineering & Templates](#prompt-engineering--templates)
-- [Educational Resources & Tutorials](#educational-resources--tutorials)
 - [Community & Lists](#community--lists)
 
 ## Official Anthropic Resources
@@ -35,7 +52,7 @@
 - **[Open-Sourcing Circuit-Tracing Tools](https://www.anthropic.com/research/open-source-circuit-tracing)** - Open-source library for generating attribution graphs on models.
 - **[Claude 4 Introduction](https://www.anthropic.com/news/claude-4)** - Details on the latest Claude model with coding and agent workflows.
 
-## Anthropic Courses
+## Educational Resources & Tutorials
 
 **Official training courses from Anthropic for mastering Claude**
 
@@ -43,7 +60,6 @@
 - **[Claude with the Anthropic API](https://anthropic.skilljar.com/claude-with-the-anthropic-api)** - This comprehensive course covers the full spectrum of working with Anthropic models using the Anthropic API
 - **[Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action)** - Integrate Claude Code into your development workflow
 - **[Introduction to Model Context Protocol](http://anthropic.skilljar.com/introduction-to-model-context-protocol)** - Learn to build Model Context Protocol servers and clients from scratch using Python. Master MCP's three core primitives—tools, resources, and prompts—to connect Claude with external services
-- **[Anthropic Academy](https://www.anthropic.com/learn)** - Guides, tutorials, and best practices for working with Claude.
 
 ## API Clients & SDKs
 
