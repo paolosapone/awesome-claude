@@ -32,29 +32,29 @@
 ## Contents
 
 - [Official Anthropic Resources](#official-anthropic-resources)
-- [Educational Resources & Tutorials](#educational-resources--tutorials)
 - [API Clients & SDKs](#api-clients--sdks)
+- [Educational Resources & Tutorials](#educational-resources--tutorials)
 - [Claude Code Ecosystem](#claude-code-ecosystem)
-- [Development Tools & Frameworks](#development-tools--frameworks)
 - [Model Context Protocol (MCP) Servers](#model-context-protocol-mcp-servers)
+- [IDE Extensions & Plugins](#ide-extensions--plugins)
+- [Applications & User Interfaces](#applications--user-interfaces)
 - [Prompt Engineering & Templates](#prompt-engineering--templates)
 - [Community & Lists](#community--lists)
+
 
 ## Official Anthropic Resources
 
 **The authoritative resources directly from Claude's creators**
 
+- **[Anthropic Academy](https://www.anthropic.com/learn)** - Guides, tutorials, and best practices for working with Claude.
 - **[Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook)** - Official collection of notebooks, code examples, and guides for building with Claude. Features Python examples, RAG techniques, and tool use patterns.
-- **[Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices)** - Tips and tricks for using Claude Code across various codebases, languages, and environments.
 - **[Model Context Protocol Introduction](https://www.anthropic.com/news/model-context-protocol)** - Official guide to MCP for extending Claude with local servers and integrations.
 - **[Claude Code](https://www.anthropic.com/claude-code)** - Official page for Claude Code, an agentic coding tool for terminals and IDEs.
-- **[Connectors Directory](https://www.anthropic.com/news/connectors-directory)** - Directory of tools and integrations that work with Claude.
-- **[Open-Sourcing Circuit-Tracing Tools](https://www.anthropic.com/research/open-source-circuit-tracing)** - Open-source library for generating attribution graphs on models.
-- **[Claude 4 Introduction](https://www.anthropic.com/news/claude-4)** - Details on the latest Claude model with coding and agent workflows.
+- **[Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices)** - Tips and tricks for using Claude Code across various codebases, languages, and environments.
 
 ## Educational Resources & Tutorials
 
-**Official training courses from Anthropic for mastering Claude**
+## Official Anthropic courses**
 
 - **[AI Fluency: Framework & Foundations](https://anthropic.skilljar.com/ai-fluency-framework-foundations)** - Learn to collaborate with AI systems effectively, efficiently, ethically, and safely
 - **[Claude with the Anthropic API](https://anthropic.skilljar.com/claude-with-the-anthropic-api)** - This comprehensive course covers the full spectrum of working with Anthropic models using the Anthropic API
@@ -103,6 +103,7 @@
 - **[serena](https://github.com/oraios/serena)** - 9.4k⭐ - Semantic retrieval and editing capabilities (Python)
 - **[context-engineering-intro](https://github.com/coleam00/context-engineering-intro)** - 8.9k⭐ - Context engineering guide for AI coding assistants (Python)
 - **[code2prompt](https://github.com/mufeedvh/code2prompt)** - 6.4k⭐ - Convert codebase to LLM prompt with token counting (Rust/MDX)
+- **[repomix](https://github.com/yamadashy/repomix)** - Pack an entire repository into a single AI-friendly file with token counting and security checks (TypeScript)
 - **[claude-code-hooks-mastery](https://github.com/disler/claude-code-hooks-mastery)** - 1.1k⭐ - Advanced hooks system (Python)
 - **[vibekit](https://github.com/superagent-ai/vibekit)** - 1.1k⭐ - Isolated sandbox for coding agents (TypeScript)
 - **[Claude-Code-Development-Kit](https://github.com/peterkrueck/Claude-Code-Development-Kit)** - 991⭐ - Orchestrated dev environment with automated docs and multi-agent workflows (Shell)
@@ -161,13 +162,22 @@
 - **[claude-code-cookbook](https://github.com/wasabeef/claude-code-cookbook/blob/main/README_en.md)** - 602⭐ - Settings collection (Shell)
 - **[Claude-Command-Suite](https://github.com/qdhenry/Claude-Command-Suite)** - 583⭐ - Professional slash commands (Shell)
 
-## Development Tools & Frameworks
+## IDE Extensions & Plugins
 
-**Frameworks and tools for building with Claude**
+**Deep integrations with development environments**
 
-- **[claude-engineer](https://github.com/Doriandarko/claude-engineer)** - Self-improving AI assistant for creating and managing AI tools with Claude
-- **[Claude Code Development Framework](https://github.com/some-org/claude-code-dev-framework)** - Comprehensive framework and best practices for Claude Code across tech stacks
-- **[repomix](https://github.com/yamadashy/repomix)** - Tool to pack repositories into AI-friendly files for Claude
+### VS Code Extensions
+- **[Cline](https://github.com/cline/cline)** - Most popular autonomous coding agent with file editing, terminal access, and browser automation. Features human-in-the-loop GUI and cost tracking. `TypeScript` `Trending` `Very Active`
+
+- **[Claude Coder](https://github.com/kodu-ai/claude-coder)** - Full-stack development assistant that converts ideas to implementation with mockup conversion and web deployment. `TypeScript` `Active`
+
+- **[Claude Code Chat](https://github.com/andrepimenta/claude-code-chat)** - Beautiful native chat interface for Claude Code within VS Code with conversation history and MCP support. `TypeScript` `Active`
+
+### Neovim Integration
+- **[Claude Code Neovim](https://github.com/coder/claudecode.nvim)** - First-to-market WebSocket-based MCP protocol integration for Neovim with zero dependencies. `Lua` `Active`
+
+### Emacs Integration
+- **[Claude Code IDE](https://github.com/manzaltu/claude-code-ide.el)** - Comprehensive Emacs integration with native MCP protocol, LSP integration, and project detection. `Emacs Lisp` `150+ ⭐` `Active`
 
 ## Model Context Protocol (MCP) Servers
 
@@ -180,13 +190,79 @@
 ### MCP Collections & Resources
 - **[punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)** - A collection of MCP servers and proxies for various use cases like management, load balancing, and integration
 
-### MCP SDKs & Development Tools
-- **[modelcontextprotocol/go-sdk](https://github.com/modelcontextprotocol/go-sdk)** - The official Go SDK for building Model Context Protocol servers and clients
-- **[modelcontextprotocol/kotlin-sdk](https://github.com/modelcontextprotocol/kotlin-sdk)** - The official Kotlin SDK for Model Context Protocol servers and clients
-
 ### MCP Servers
 - **[github-mcp-server](https://github.com/github/github-mcp-server)** - 21.3k⭐ - GitHub's official MCP Server that connects AI tools to GitHub's platform for managing repositories, issues, PRs, and more (Go)
 - **[awslabs/mcp](https://github.com/awslabs/mcp)** - AWS MCP Servers providing access to AWS APIs, documentation, and best practices for AI applications
-- **[zen-mcp-server](https://github.com/BeehiveInnovations/zen-mcp-server)** - 6.4k⭐ - Multi-model integration (Gemini/OpenAI/Grok/Ollama) (Python)
-- **[n8n-mcp](https://github.com/czlonkowski/n8n-mcp)** - 5.7k⭐ - Build n8n workflows with Claude (TypeScript)
-- **[claude-context](https://github.com/zilliztech/claude-context)** - 2.7k⭐ - Code search MCP for entire codebase context (TypeScript)
+- **[mcp-chrome](https://github.com/hangwin/mcp-chrome)** - MCP server for Chrome browser automation and control
+- **[context7](https://github.com/upstash/context7)** - MCP server providing up-to-date code documentation and examples for AI code editors (TypeScript)
+
+## Applications & User Interfaces
+
+**Complete applications and polished user interfaces**
+
+### Desktop Applications
+- **[Claude Desktop](https://claude.ai/download)** - Official Claude desktop app for macOS and Windows
+- **[Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian)** - Unofficial Claude desktop app for Debian/Linux
+- **[Chatbox](https://github.com/chatboxai/chatbox)** - Cross-platform desktop app supporting multiple AI models including Claude
+
+### Multi-Platform Chat Applications
+- **[Lobe Chat](https://github.com/lobehub/lobe-chat)** - Open-source modern AI chat framework with multi-model support (Claude, OpenAI, Gemini), MCP plugin integration, knowledge base, and artifacts support. `TypeScript` `Very Active`
+
+- **[LibreChat](https://github.com/danny-avila/LibreChat)** - Multi-model chat platform with comprehensive Claude support alongside other AI models. `TypeScript/React` `21.6k ⭐` `Very Active`
+
+- **[FastGPT](https://github.com/labring/FastGPT)** - Knowledge-based QA platform with RAG capabilities and Claude integration. `TypeScript` `10.3k ⭐` `Very Active`
+
+## Community
+
+**Join the Claude community to share knowledge, get help, and stay updated**
+
+- **[Claude Discord](https://discord.com/invite/prcdpx7qMm)** - Official Discord community for Claude users and developers
+- **[r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/)** - Reddit community for Claude discussions and tips
+- **[Anthropic AI Facebook Group](https://www.facebook.com/groups/anthropicai/)** - Facebook group for Anthropic AI and Claude discussions
+
+## Contributing
+
+**We welcome contributions!** This list follows the [Awesome List Guidelines](https://github.com/sindresorhus/awesome/blob/main/contributing.md).
+
+### How to Contribute
+
+1. **Repository Quality Standards:**
+   - Must be open source with clear license
+   - Active maintenance (commits within 12 months)
+   - Meaningful functionality beyond basic examples
+   - Good documentation with installation instructions
+   - Community engagement (reasonable stars/forks for age)
+
+2. **Submission Process:**
+   - Fork this repository
+   - Add your item in the appropriate category
+   - Include: name, description, primary language, approximate stars, maintenance status
+   - Ensure alphabetical order within categories
+   - Submit pull request with clear description
+
+3. **New Category Guidelines:**
+   - Categories need 3+ quality repositories
+   - Must represent distinct use case or technical approach
+   - Should not overlap significantly with existing categories
+
+### What We Look For
+
+- **Innovation:** Novel approaches to Claude integration
+- **Utility:** Practical tools that solve real problems
+- **Quality:** Well-documented, tested, professional code
+- **Activity:** Regular maintenance and community engagement
+- **Impact:** Projects that advance the Claude ecosystem
+
+## License
+
+[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=alvinunreal/awesome-claude&type=Date)](https://star-history.com/#alvinunreal/claude-code&Date)
+
+---
+
+**[⬆ Back to Contents](#contents)**
+
+> 💡 **Tip**: Most repositories marked as "Very Active" were updated within the last 30 days. The Claude ecosystem is rapidly evolving, especially around Claude Code and MCP protocol innovations.
