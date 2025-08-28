@@ -1,0 +1,15 @@
+src/**
+test/**
+node_modules/**
+.gitignore
+tsconfig.json
+build.ts
+*.vsix
+.vscode/**
+.vscode-test/**
+*.map
+.eslintrc*
+**/*.ts
+!**/*.d.ts
+pnpm-lock.yaml
+.claude/**
