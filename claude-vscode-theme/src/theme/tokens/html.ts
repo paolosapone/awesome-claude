@@ -1,7 +1,7 @@
 import type { TextmateColors, ThemeContext } from '../../types';
 
 export default function html(context: ThemeContext): TextmateColors {
-  const { palette } = context;
+  const { palette, options } = context;
   
   return [
     {
@@ -34,7 +34,7 @@ export default function html(context: ThemeContext): TextmateColors {
       ],
       settings: {
         foreground: palette.orange,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     {
@@ -66,7 +66,7 @@ export default function html(context: ThemeContext): TextmateColors {
       ],
       settings: {
         foreground: palette.purple,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     {
@@ -106,7 +106,7 @@ export default function html(context: ThemeContext): TextmateColors {
       ],
       settings: {
         foreground: palette.crail,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     {
@@ -116,7 +116,7 @@ export default function html(context: ThemeContext): TextmateColors {
       ],
       settings: {
         foreground: palette.yellow,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     {
@@ -126,7 +126,7 @@ export default function html(context: ThemeContext): TextmateColors {
       ],
       settings: {
         foreground: palette.purple,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
   ];

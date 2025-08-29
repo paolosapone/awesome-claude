@@ -1,7 +1,7 @@
 import type { TextmateColors, ThemeContext } from '../../types';
 
 export default function markdown(context: ThemeContext): TextmateColors {
-  const { palette } = context;
+  const { palette, options } = context;
   
   return [
     {
@@ -28,7 +28,7 @@ export default function markdown(context: ThemeContext): TextmateColors {
       scope: ['markup.italic.markdown'],
       settings: {
         foreground: palette.orange,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     {
@@ -68,7 +68,7 @@ export default function markdown(context: ThemeContext): TextmateColors {
       scope: ['markup.quote.markdown'],
       settings: {
         foreground: palette.cloudy,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     {

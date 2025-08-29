@@ -40,7 +40,7 @@ export default function getBaseTokens(context: ThemeContext): TextmateColors {
       scope: ['comment', 'punctuation.definition.comment'],
       settings: {
         foreground: palette.overlay2,
-        fontStyle: options.italicComments ? 'italic' : '',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     
@@ -95,7 +95,7 @@ export default function getBaseTokens(context: ThemeContext): TextmateColors {
       ],
       settings: {
         foreground: palette.purple,
-        fontStyle: 'bold italic',
+        fontStyle: options.enableItalics ? 'bold italic' : 'bold',
       },
     },
     
@@ -125,7 +125,7 @@ export default function getBaseTokens(context: ThemeContext): TextmateColors {
       ],
       settings: {
         foreground: palette.orange,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     
@@ -143,7 +143,7 @@ export default function getBaseTokens(context: ThemeContext): TextmateColors {
       ],
       settings: {
         foreground: palette.blue,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     
@@ -156,7 +156,7 @@ export default function getBaseTokens(context: ThemeContext): TextmateColors {
       ],
       settings: {
         foreground: palette.blue,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     
@@ -166,7 +166,7 @@ export default function getBaseTokens(context: ThemeContext): TextmateColors {
       scope: ['entity.name.enum'],
       settings: {
         foreground: palette.blue,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     
@@ -260,7 +260,7 @@ export default function getBaseTokens(context: ThemeContext): TextmateColors {
       ],
       settings: {
         foreground: palette.orange,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     
@@ -363,7 +363,7 @@ export default function getBaseTokens(context: ThemeContext): TextmateColors {
       scope: ['markup.quote'],
       settings: {
         foreground: palette.cloudy,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     
@@ -395,7 +395,7 @@ export default function getBaseTokens(context: ThemeContext): TextmateColors {
       ],
       settings: {
         foreground: palette.purple,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     
@@ -408,7 +408,7 @@ export default function getBaseTokens(context: ThemeContext): TextmateColors {
       ],
       settings: {
         foreground: palette.purple,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     

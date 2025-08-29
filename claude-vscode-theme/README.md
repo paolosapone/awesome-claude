@@ -1,10 +1,8 @@
 <div align="center">
 
-<img src="./assets/awesomeclaude.png" alt="Awesome Claude" width="120" height="120">
+# Claude VSCode Theme
 
-# Claude Theme
-
-The warm, thoughtful dark theme that mirrors Claude AI's clean interface. Carefully balanced contrast and muted syntax colors reduce eye strain during long coding sessions.
+Thoughtful dark theme that is inspired by Claude AI. Carefully balanced contrast and dark syntax colors to reduce eye strain during long coding sessions.
 
 Part of [awesomeclaude.ai](https://awesomeclaude.ai)
 
@@ -17,11 +15,11 @@ Part of [awesomeclaude.ai](https://awesomeclaude.ai)
 
 <br>
 
-<img src="./assets/dark-min.png" alt="Claude Theme Preview" width="100%" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+<img src="./assets/dark-high-contrast-min.png" alt="Claude Theme Preview" width="100%" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
 
 <br>
 
-**[Install Now](https://marketplace.visualstudio.com/items?itemName=alvinunreal.claude-vscode-theme)** • **[View Screenshots](#-screenshots)** • **[Configuration](#-configuration)**
+**[Install Now](https://marketplace.visualstudio.com/items?itemName=alvinunreal.claude-vscode-theme)** • **[View Screenshots](#-screenshots)**
 
 ---
 
@@ -49,10 +47,9 @@ Part of [awesomeclaude.ai](https://awesomeclaude.ai)
 - Smooth color transitions
 - Consistent visual hierarchy
 
-### 🛠️ **Fully Customizable**
-- 6 accent color options
-- Typography controls
-- Workbench appearance modes
+### 🛠️ **Multiple Variants**
+- Claude Dark theme
+- High contrast variant
 
 </td>
 </tr>
@@ -110,18 +107,6 @@ Add to your `settings.json`:
 </tr>
 </table>
 
-<details>
-<summary><strong>📱 More Screenshots</strong> (Click to expand)</summary>
-
-<br>
-
-### Multiple Language Support
-<img src="./assets/awesomeclaude.png" alt="Claude Theme - Language Support" width="100%" style="border-radius: 8px; margin: 20px 0;">
-
-*Consistent syntax highlighting across JavaScript, Python, CSS, and more*
-
-</details>
-
 ## 🎨 Color Palette
 
 <div align="center">
@@ -137,67 +122,6 @@ Add to your `settings.json`:
 
 </div>
 
-## ⚙️ Configuration
-
-Personalize your experience with powerful customization options:
-
-<details>
-<summary><strong>🎨 Accent Colors</strong></summary>
-
-Choose from 6 beautiful accent colors:
-
-```json
-{
-  "claude.accentColor": "crail" // crail | orange | blue | purple | green | teal
-}
-```
-
-</details>
-
-<details>
-<summary><strong>✍️ Typography</strong></summary>
-
-Fine-tune your code typography:
-
-```json
-{
-  "claude.italicComments": true,    // Italicize comments
-  "claude.italicKeywords": true,    // Italicize keywords
-  "claude.boldKeywords": true       // Bold keywords
-}
-```
-
-</details>
-
-<details>
-<summary><strong>🌈 Bracket Colorization</strong></summary>
-
-```json
-{
-  "claude.bracketMode": "rainbow" // rainbow | dimmed | monochromatic
-}
-```
-
-- **Rainbow**: Vibrant colors for each bracket pair
-- **Dimmed**: Subtle rainbow colors
-- **Monochromatic**: Single color scheme
-
-</details>
-
-<details>
-<summary><strong>🖥️ Workbench Appearance</strong></summary>
-
-```json
-{
-  "claude.workbenchMode": "default" // default | flat | minimal
-}
-```
-
-- **Default**: Rich shadows and depth
-- **Flat**: Reduced shadows
-- **Minimal**: Clean, borderless design
-
-</details>
 
 ## 🚀 Language Support
 
@@ -263,15 +187,6 @@ git push origin feature/your-feature
 ```
 
 </details>
-
-## 📊 Stats
-
-<div align="center">
-
-![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square&color=4A90E2)
-![VS Code](https://img.shields.io/badge/VS%20Code-1.80+-blue.svg?style=flat-square&color=E07A47)
-
-</div>
 
 ## 📄 License
 

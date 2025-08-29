@@ -1,7 +1,7 @@
 import type { TextmateColors, ThemeContext } from '../../types';
 
 export default function python(context: ThemeContext): TextmateColors {
-  const { palette } = context;
+  const { palette, options } = context;
   
   return [
     {
@@ -12,7 +12,7 @@ export default function python(context: ThemeContext): TextmateColors {
       ],
       settings: {
         foreground: palette.purple,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     {
@@ -23,7 +23,7 @@ export default function python(context: ThemeContext): TextmateColors {
       ],
       settings: {
         foreground: palette.pink,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     {
@@ -55,7 +55,7 @@ export default function python(context: ThemeContext): TextmateColors {
       ],
       settings: {
         foreground: palette.pink,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     {
@@ -74,7 +74,7 @@ export default function python(context: ThemeContext): TextmateColors {
       ],
       settings: {
         foreground: palette.blue,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     {
@@ -85,7 +85,7 @@ export default function python(context: ThemeContext): TextmateColors {
       ],
       settings: {
         foreground: palette.blue,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     {
@@ -106,7 +106,7 @@ export default function python(context: ThemeContext): TextmateColors {
       ],
       settings: {
         foreground: palette.yellow,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     {
@@ -117,7 +117,7 @@ export default function python(context: ThemeContext): TextmateColors {
       ],
       settings: {
         foreground: palette.cloudy,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     {
@@ -127,7 +127,7 @@ export default function python(context: ThemeContext): TextmateColors {
       ],
       settings: {
         foreground: palette.purple,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     {
@@ -147,7 +147,7 @@ export default function python(context: ThemeContext): TextmateColors {
       ],
       settings: {
         foreground: palette.purple,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
     {
@@ -158,7 +158,7 @@ export default function python(context: ThemeContext): TextmateColors {
       ],
       settings: {
         foreground: palette.purple,
-        fontStyle: 'italic',
+        fontStyle: options.enableItalics ? 'italic' : '',
       },
     },
   ];

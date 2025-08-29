@@ -4,6 +4,7 @@ import { mkdir, writeFile } from 'fs/promises';
 import { join } from 'path';
 import { compileTheme, defaultOptions } from './src/theme';
 import type { ThemeVariant } from './src/theme/palette';
+import type { ThemeOptions } from './src/types';
 
 const variants: ThemeVariant[] = ['dark', 'dark-high-contrast'];
 
