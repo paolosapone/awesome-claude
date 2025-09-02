@@ -109,6 +109,7 @@
 - **[claude-code-proxy](https://github.com/1rgs/claude-code-proxy)** - 2.1k⭐ - Run Claude Code on OpenAI models
 
 ### User Interfaces & Web Apps
+- **[Happy Coder](https://github.com/slopus/happy)** - 940⭐ - Native mobile app and Web UI for Claude Code. Kick off tasks, track progress, and merge changes to continue building on the go.
 - **[cui](https://github.com/wbopan/cui)** - 845⭐ - Web UI for Claude Code agents
 - **[ccseva](https://github.com/Iamshankhadeep/ccseva)** - 701⭐ - macOS menu bar app for usage tracking
 - **[claude-code-chat](https://github.com/andrepimenta/claude-code-chat)** - 625⭐ - Beautiful chat interface for VS Code
