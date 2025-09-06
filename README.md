@@ -103,7 +103,7 @@
 - **[Claude-Code-Development-Kit](https://github.com/peterkrueck/Claude-Code-Development-Kit)** - 1.0k⭐ - Orchestrated dev environment with automated docs and multi-agent workflows (Shell)
 
 ### Alternative Clients & Proxies
-- **[kilocode](https://github.com/Kilo-Org/kilocode)** - 8.1k⭐ - Open source AI coding assistant
+- **[kilocode](https://github.com/Kilo-Org/kilocode)** - 8.2k⭐ - Open source AI coding assistant
 - **[claudecodeui](https://github.com/siteboon/claudecodeui)** - 3.8k⭐ - Mobile and web UI for Claude Code
 - **[claude-relay-service](https://github.com/Wei-Shaw/claude-relay-service)** - 2.9k⭐ - Self-hosted mirror service with multi-account support
 - **[claude-code-proxy](https://github.com/1rgs/claude-code-proxy)** - 2.1k⭐ - Run Claude Code on OpenAI models
@@ -113,7 +113,7 @@
 - **[cui](https://github.com/wbopan/cui)** - 860⭐ - Web UI for Claude Code agents
 - **[ccseva](https://github.com/Iamshankhadeep/ccseva)** - 705⭐ - macOS menu bar app for usage tracking
 - **[claude-code-chat](https://github.com/andrepimenta/claude-code-chat)** - 649⭐ - Beautiful chat interface for VS Code
-- **[claude-code-webui](https://github.com/sugyan/claude-code-webui)** - 549⭐ - Web-based interface with streaming
+- **[claude-code-webui](https://github.com/sugyan/claude-code-webui)** - 550⭐ - Web-based interface with streaming
 
 ### Editor Integrations
 - **[claude-coder](https://github.com/kodu-ai/claude-coder)** - 4.8k⭐ - VSCode extension for autonomous coding
