@@ -2,7 +2,7 @@
   "name": "claude-vscode-theme",
   "displayName": "Claude VSCode Theme",
   "description": "Thoughtful dark theme collection with classic and italic variants. Inspired by Claude AI with carefully balanced contrast and warm syntax colors for long coding sessions.",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "publisher": "AlvinUnreal",
   "license": "MIT",
   "type": "module",
