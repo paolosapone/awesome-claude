@@ -136,19 +136,11 @@ AI assistant by Anthropic for complex reasoning, code generation, and analysis t
 
 ## IDE Extensions & Plugins
 
-**Deep integrations with development environments**
-
 ### VS Code Extensions
 
 - [Claude Code Chat](https://github.com/andrepimenta/claude-code-chat#readme) - Beautiful native chat interface for Claude Code within VS Code with conversation history and MCP support.
 
 - [Claude VSCode Theme](https://marketplace.visualstudio.com/items?itemName=AlvinUnreal.claude-vscode-theme) - Thoughtful dark theme collection with classic and italic variants. Inspired by Claude AI with carefully balanced contrast and warm syntax colors for long coding sessions.
-
-### Neovim Integration
-- [Claude Code Neovim](https://github.com/coder/claudecode.nvim#readme) - First-to-market WebSocket-based MCP protocol integration for Neovim with zero dependencies.
-
-### Emacs Integration
-- [Claude Code IDE](https://github.com/manzaltu/claude-code-ide.el#readme) - Comprehensive Emacs integration with native MCP protocol, LSP integration, and project detection.
 
 ### Browser Extensions
 - [Claude Usage Tracker](https://chromewebstore.google.com/detail/claude-usage-tracker/knemcdpkggnbhpoaaagmjiigenifejfo) - Chrome extension for tracking Claude AI usage and performance metrics.
@@ -156,8 +148,6 @@ AI assistant by Anthropic for complex reasoning, code generation, and analysis t
 - [Claude Helper](https://chromewebstore.google.com/detail/claude-helper/nfgojpifghedgeflgnliekadidggnnih/reviews) - Allows folder uploads to Claude projects with advanced file handling. Adds minimap for chat navigation and quick conversation access.
 
 ## Applications & User Interfaces
-
-**Complete applications and polished user interfaces**
 
 ### Desktop Applications
 - [Claude Desktop](https://claude.ai/download) - Official Claude desktop app for macOS and Windows.
