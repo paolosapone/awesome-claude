@@ -1,36 +1,36 @@
 {
-  "name": "awesome-claude",
-  "version": "1.0.0",
-  "description": "A curated list of awesome Claude AI projects and resources",
-  "main": "README.md",
-  "scripts": {
-    "lint": "awesome-lint README.md",
-    "test": "npm run lint",
-    "check-links": "markdown-link-check README.md --config .github/workflows/markdown-link-check-config.json"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alvinunreal/awesome-claude.git"
-  },
-  "keywords": [
-    "awesome",
-    "awesome-list",
-    "claude",
-    "anthropic",
-    "ai",
-    "artificial-intelligence",
-    "chatbot",
-    "llm",
-    "large-language-model"
-  ],
-  "author": "Alvin Unreal",
-  "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/alvinunreal/awesome-claude/issues"
-  },
-  "homepage": "https://github.com/alvinunreal/awesome-claude#readme",
-  "devDependencies": {
-    "awesome-lint": "^0.18.0",
-    "markdown-link-check": "^3.12.2"
-  }
+    "name": "awesome-claude",
+    "version": "2.0.0",
+    "description": "A curated list of awesome Claude AI projects and resources",
+    "main": "README.md",
+    "scripts": {
+        "lint": "awesome-lint README.md",
+        "test": "npm run lint",
+        "check-links": "markdown-link-check README.md --config .github/workflows/markdown-link-check-config.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/paolosapone/awesome-claude.git"
+    },
+    "keywords": [
+        "awesome",
+        "awesome-list",
+        "claude",
+        "anthropic",
+        "ai",
+        "artificial-intelligence",
+        "chatbot",
+        "llm",
+        "large-language-model"
+    ],
+    "author": "Paolo Sapone",
+    "license": "CC0-1.0",
+    "bugs": {
+        "url": "https://github.com/paolosapone/awesome-claude/issues"
+    },
+    "homepage": "https://github.com/paolosapone/awesome-claude#readme",
+    "devDependencies": {
+        "awesome-lint": "^0.18.0",
+        "markdown-link-check": "^3.12.2"
+    }
 }
